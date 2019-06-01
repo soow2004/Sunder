@@ -37,7 +37,7 @@ bot.on('message', msg => {
         msg.channel.send("https://alexpgm.000webhostapp.com/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
- 
+
 });
 
 bot.login(cfg.token); //a garder en version desktop
